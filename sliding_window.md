@@ -54,7 +54,7 @@ return mx
 ```cpp
 ** Optimal **
 The idea is to trim down the shrinking part as we already 
-have an optimal solution in variable mx. so we don't need a
+have an optimal solution in variable mx. so we dont need a
 length <= mx so far. so we shrink the window size by 1 by
 converting while loop to if chk and see if we can obtain a
 window whose size is greater than current mx
