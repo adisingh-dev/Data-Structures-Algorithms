@@ -53,10 +53,8 @@ return mx
 
 ```cpp
 ** Optimal **
-The idea is to trim down the shrinking part as we already 
-have an optimal solution in variable mx. so we dont need a
-length <= mx so far. so we shrink the window size by 1 by
-converting while loop to if chk and see if we can obtain a
+The idea is to trim down the shrinking part as we already have an optimal solution in variable mx. so we dont need a
+length <= mx so far. so we shrink the window size by 1 by converting while loop to if chk and see if we can obtain a
 window whose size is greater than current mx
 
 TC: O(n)
@@ -75,7 +73,7 @@ if(i <= j and sum > k) { // chk only for window size > mx
 ```cpp
 # of subarrays with sum == k => N
 N = solve(arr, k) - solve(arr, k - 1);
-N = # of subarrays with sum <= k - # of subarrays with sum <= k - 1
+N = (# of subarrays with sum <= k) - (# of subarrays with sum <= k - 1)
 ```
 
 #### Revision
@@ -86,3 +84,4 @@ N = # of subarrays with sum <= k - # of subarrays with sum <= k - 1
 - [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/)
 - [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)
 - [Minimum Window Substring](https://www.geeksforgeeks.org/problems/minimum-window-subsequence/1)
+- [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
