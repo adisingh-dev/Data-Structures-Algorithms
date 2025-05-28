@@ -91,11 +91,11 @@ N = (# of subarrays with sum <= k) - (# of subarrays with sum <= k - 1)
 -  For problem Longest substring with distinct characters know when to use either hashmap or integer array of some size. know how and when to move `i` pointer efficiently.
 move `i` only when a char is found whose first occuring idx `arr[s[j]] >= i` before updating hash array but dont update i when `arr[idx] < i` bcoz `i` already passed by `s[j]`
 element hence no need to update `i`
-```cpp
-if(arr[s[j] - 'a'] != -1 && arr[s[j] - 'a'] >= i) {
-    i = arr[s[j] - 'a'] + 1;
-}
-```
+    ```cpp
+    if(arr[s[j] - 'a'] != -1 && arr[s[j] - 'a'] >= i) {
+        i = arr[s[j] - 'a'] + 1;
+    }
+    ```
 - For problem Max Consecutive Ones III there is 1 better and 1 optimal technique we can use
     -  __better__: use while loop. increment `i` one by one till it reaches a pt where #of zeros are valid
     ```cpp
