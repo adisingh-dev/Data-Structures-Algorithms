@@ -86,3 +86,14 @@ N = (# of subarrays with sum <= k) - (# of subarrays with sum <= k - 1)
 - [Minimum Window Substring](https://www.geeksforgeeks.org/problems/minimum-window-subsequence/1)
 - [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
 - [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+
+## Thinking Patterns
+-  For problem Longest substring with distinct characters know when to use either hashmap or integer array of some size. know how and when to move `i` pointer efficiently.
+move `i` only when a char is found whose first occuring idx `arr[s[j]] >= i` before updating hash array but dont update i when `arr[idx] < i` bcoz `i` already passed by `s[j]`
+element hence no need to update `i`
+```cpp
+if(arr[s[j] - 'a'] != -1 && arr[s[j] - 'a'] >= i) {
+    i = arr[s[j] - 'a'] + 1;
+}
+```
+
