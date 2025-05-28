@@ -111,6 +111,7 @@ element hence no need to update `i`
         if(arr[i] == 0) z--;
         i++;
     }
-    if(z <= k) mx = max(mx, j - i + 1); // optional check as we are not allowing maxlength to be greater than the current one so even if current subarray is invalid still
-                                        // we get current subarray length to be equal to maxlength so it dont make a difference
+    if(z <= k) mx = max(mx, j - i + 1); // optional check as we are not allowing maxlength to be greater than the current one so
+                                        // even if current subarray is invalid still we get current subarray length to be equal
+                                        // to maxlength so it dont make a difference
     ```
