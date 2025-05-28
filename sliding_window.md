@@ -96,4 +96,20 @@ if(arr[s[j] - 'a'] != -1 && arr[s[j] - 'a'] >= i) {
     i = arr[s[j] - 'a'] + 1;
 }
 ```
-
+- For problem Max Consecutive Ones III there is 1 better and 1 optimal technique we can use
+    -  __better__: use while loop. increment `i` one by one till it reaches a pt where #of zeros are valid
+    ```cpp
+    if(arr[j] == 0) z++;
+    while(i <= j && z > k) {
+        if(arr[i] == 0) z--;
+        i++;
+    }
+    ```
+    -  __optimal__: use if condition and increment `i` by one idx. this ensures we only get `length >= current length` as there is no point in shrinking `i` for lower lengths
+    ```cpp
+    if(z > k) {
+        if(arr[i] == 0) z--;
+        i++;
+    }
+    if(z <= k) mx = max(mx, j - i + 1);
+    ```
