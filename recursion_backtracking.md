@@ -24,6 +24,7 @@
 
 
 #### Revision
+- [Subset Sums-1](https://www.geeksforgeeks.org/problems/subset-sums2234/1)
 - [Combination Sum](https://www.geeksforgeeks.org/problems/combination-sum-1587115620/0)
 - [Combination Sum 2](https://www.geeksforgeeks.org/problems/combination-sum-ii-1664263832/1)
 - [Generate Parentheses](https://www.geeksforgeeks.org/problems/generate-all-possible-parentheses/1)
