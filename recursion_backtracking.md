@@ -20,11 +20,35 @@
           v.pop_back();
       }
     ```
+
+- For combination sum pattern where all array elems are unique and we are to `find all unique combinations in the array where
+  sum equal to target` then use either two recursive calls to find valid combinations using pick/not-pick approach or use a single
+  for loop to explore all possible options at once instead of direct pick/not-pick approach
+  ```cpp
+  // pick/not-pick
+  if(sum + arr[ind] <= tar) {
+      temp.push_back(arr[ind]);
+      f(arr, ans, temp, tar, sum + arr[ind], ind);
+      temp.pop_back();
+  }
+  f(arr, ans, temp, tar, sum, ind + 1);
+
+  // explore all possible options at one level of recursive call
+  for(int i = ind; i < arr.size(); i++) {
+      if(sum + arr[i] <= tar) {
+          temp.push_back(arr[i]);
+          f(arr, ans, temp, tar, sum + arr[i], i);
+          temp.pop_back();
+      }
+  }
+  ```
   
 
 
 #### Revision
+- [Generate Parentheses](https://www.geeksforgeeks.org/problems/generate-all-possible-parentheses/1)
 - [Subset Sums-1](https://www.geeksforgeeks.org/problems/subset-sums2234/1)
+- [Subset Sums-2](https://www.geeksforgeeks.org/problems/subset-sum-ii/1)
 - [Combination Sum](https://www.geeksforgeeks.org/problems/combination-sum-1587115620/0)
 - [Combination Sum 2](https://www.geeksforgeeks.org/problems/combination-sum-ii-1664263832/1)
-- [Generate Parentheses](https://www.geeksforgeeks.org/problems/generate-all-possible-parentheses/1)
+- [Combination Sum 3](https://leetcode.com/problems/combination-sum-iii/submissions/1650581574/)
