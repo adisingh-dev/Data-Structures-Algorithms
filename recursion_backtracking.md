@@ -35,7 +35,11 @@
       temp.pop_back();
   }
   f(arr, ans, temp, tar, sum, ind + 1);
+  ```
 
+  ![WhatsApp Image 2025-06-01 at 19 08 09](https://github.com/user-attachments/assets/f6959c9e-4bcc-4941-8fc6-1dd5bb7d5ed6)
+
+  ```cpp
   // explore all possible options at one level of recursive call
   for(int i = ind; i < arr.size(); i++) {
       if(sum + arr[i] <= tar) {
