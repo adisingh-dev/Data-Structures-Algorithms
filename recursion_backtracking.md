@@ -24,6 +24,9 @@
 - For combination sum pattern where all array elems are unique and we are to `find all unique combinations in the array where
   sum equal to target` then use either two recursive calls to find valid combinations using pick/not-pick approach or use a single
   for loop to explore all possible options at once instead of direct pick/not-pick approach
+  
+  ![WhatsApp Image 2025-06-01 at 18 55 32](https://github.com/user-attachments/assets/53c33f62-d5ca-4723-9efd-2dd4b3fb51b3)
+
   ```cpp
   // pick/not-pick
   if(sum + arr[ind] <= tar) {
