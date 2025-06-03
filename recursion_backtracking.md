@@ -63,3 +63,4 @@
 - [Possible Words From Phone Digits](https://www.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1)
 - [Partition array to k subsets with equal sum](https://www.geeksforgeeks.org/problems/partition-array-to-k-subsets/1)
 - [Permutations of a String](https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1)
+- [Palindromic Partitioning](https://www.geeksforgeeks.org/problems/palindromic-patitioning4845/1)
