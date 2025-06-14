@@ -86,6 +86,7 @@ N = (# of subarrays with sum <= k) - (# of subarrays with sum <= k - 1)
 - [Minimum Window Substring](https://www.geeksforgeeks.org/problems/minimum-window-subsequence/1)
 - [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
 - [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [Smallest distinct window](https://www.geeksforgeeks.org/problems/smallest-distant-window3132/1?page=1&category=sliding-window&sortBy=submissions)
 
 ## Thinking Patterns
 -  For problem Longest substring with distinct characters know when to use either hashmap or integer array of some size. know how and when to move `i` pointer efficiently.
@@ -116,3 +117,27 @@ element hence no need to update `i`
     // even if current subarray is invalid still we get current subarray length to be equal
     // to maxlength so it dont make a difference
     ```
+- In problem Smallest distinct window we need to find length of the smallest window that contains all the characters
+  of the given string at least once. To tackle it think of a frequency array and a counter variable `c` instead of using
+  2 hashmaps
+    - Initialize freq array w/ -1 and put 0 count for all occuring chars in string s
+    - If the char occurs first time increase counter variable by 1 by using `if(freq[i]] == -1)`
+    - Decrement counter by one only when the character occurs once inside while loop
+    - shrink window size till we are able to have a valid window by checking `if(i <= j && c == 0)` which means all chars are consumed
+      ```cpp
+      while(j<str.size()){
+            a[str[j]-'a']++;
+            if(a[str[j]-'a']==1){
+                c--;
+            }
+            while(i<=j&&c==0){
+                mn=min(mn,j-i+1);
+                a[str[i]-'a']--;
+                if(a[str[i]-'a']==0){
+                    c++;
+                }
+                i++;
+            }
+            j++;
+        }
+      ```
