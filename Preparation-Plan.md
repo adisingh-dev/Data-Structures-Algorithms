@@ -7,13 +7,13 @@
 | Topic | Days | Importance | Status |
 |--------|------|------------|---------|
 | **Arrays** | 5 | ⭐⭐⭐⭐ | Not Started |
-| **Two Pointer & Sliding Window** | 5 | ⭐⭐⭐ | Not Started |
+| **Two Pointer & Sliding Window** | 5 | ⭐⭐⭐ | Revision |
 | **String** | 5 | ⭐⭐⭐⭐ | Not Started |
 | **Stack & Queue** | 2 | ⭐⭐⭐⭐ | Not Started |
 | **LinkedList** | 2 | ⭐⭐⭐ | Not Started |
 | **Binary Search** | 5 | ⭐⭐⭐⭐ | Not Started |
 | **Bit Manipulation** | 5 | ⭐⭐⭐ | Not Started |
-| **Recursion & Backtracking** | 5 | ⭐⭐⭐⭐⭐ | Not Started |
+| **Recursion & Backtracking** | 5 | ⭐⭐⭐⭐⭐ | Ongoing |
 | **Greedy Algorithm** | 5 | ⭐⭐⭐ | Not Started |
 | **Heaps** | 2 | ⭐⭐⭐ | Not Started |
 | **Binary Tree & BST** | 5 | ⭐⭐⭐⭐⭐ | Not Started |
