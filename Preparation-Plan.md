@@ -9,16 +9,16 @@
 | **Arrays** | 5 | ⭐⭐⭐⭐ | Not Started |
 | **Two Pointer & Sliding Window** | 5 | ⭐⭐⭐ | Not Started |
 | **String** | 5 | ⭐⭐⭐⭐ | Not Started |
-| **Stack & Queue** | 5 | ⭐⭐⭐⭐ | Not Started |
-| **LinkedList** | 5 | ⭐⭐⭐ | Not Started |
+| **Stack & Queue** | 2 | ⭐⭐⭐⭐ | Not Started |
+| **LinkedList** | 2 | ⭐⭐⭐ | Not Started |
 | **Binary Search** | 5 | ⭐⭐⭐⭐ | Not Started |
 | **Bit Manipulation** | 5 | ⭐⭐⭐ | Not Started |
-| **Recursion & Backtracking** | 7 | ⭐⭐⭐⭐⭐ | Not Started |
+| **Recursion & Backtracking** | 5 | ⭐⭐⭐⭐⭐ | Not Started |
 | **Greedy Algorithm** | 5 | ⭐⭐⭐ | Not Started |
 | **Heaps** | 2 | ⭐⭐⭐ | Not Started |
-| **Binary Tree & BST** | 7 | ⭐⭐⭐⭐⭐ | Not Started |
-| **Dynamic Programming** | 30 | ⭐⭐⭐⭐⭐ | Not Started |
-| **Graph** | 20 | ⭐⭐⭐⭐⭐ | Not Started |
+| **Binary Tree & BST** | 5 | ⭐⭐⭐⭐⭐ | Not Started |
+| **Dynamic Programming** | 20 | ⭐⭐⭐⭐⭐ | Not Started |
+| **Graph** | 15 | ⭐⭐⭐⭐⭐ | Not Started |
 | **Tries** | 5 | ⭐⭐⭐ | Not Started |
 | **Design Data Structure** | 5 | ⭐⭐⭐⭐ | Not Started |
 
