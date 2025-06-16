@@ -40,6 +40,15 @@ For those aiming to go beyond standard DSA:
 - **Heavy-Light Decomposition (HLD)** – Advanced technique for handling tree queries efficiently.
 
 ---
+## 🧠 Main Idea
+
+- Finish DSA learning in a limited amount of time and get out of tutorial hell ASAP.
+- To learn how to think in a DSA problem and master pattern recognition.
+- Learn fundamentals of all DSA topics and be confident that we finished the learning plan successfully.
+
+
+
+---
 ## 🎯 Goal
 
 - Finish the learning part **ASAP** so that we can start our **practice** as soon as possible. This will build your confidence and, most importantly, prevent getting stuck in the loop of endless learning.
